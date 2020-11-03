@@ -1,0 +1,48 @@
+<style>
+    body {
+        font-size: 20px;
+        font-family: Tahoma;
+        background-color: rgb(216, 230, 24);
+    }
+</style>
+<a href="eindopdracht5.html">Homepage</a>
+<p>
+<form name="index" method="POST" data-netlify="true">
+
+    <label style="color: darkblue;">
+        <label for="fname">Voornaam:</label>
+        <input type="text" id="fname" name="fname">
+        <label for="lname">Achternaam:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+
+        <label>Tel.nummer: <input type="tel" name="telefoon-nummer" /></label>
+
+
+        <label>E-mailadres:<input type="email" name="email" /></label><br><br>
+        <label>Leeftijd:<input type="number" name="leeftijd"></label>
+        <label>Geboortedatum:<input type="date" name="geboortedatum"></label>
+        <label>Geslacht:</label>
+        <input type="radio" name="geslacht" value="man"> man
+        <input type="radio" name="geslacht" value="vrouw"> vrouw
+        <input type="radio" name="geslacht" value="gender"> genderneutraal<br><br>
+
+        <label>Favoriete Koffie:</label>
+        <input type="checkbox" name="voorkeur eten" value="frans">Cappuccino
+        <input type="checkbox" name="voorkeur eten" value="spaans">Espresso
+        <input type="checkbox" name="voorkeur eten" value="italiaans">Zwart
+        <input type="checkbox" name="voorkeur eten" value="arabisch">Lungo<br><br>
+
+
+        <h4>Schrijf wat over jezelf:</h4>
+        <textarea name="message"></textarea><br><br>
+
+        <label>Upload je favoriete recept:</label>
+        <input type="file" id="myFile" name="upload"><br>
+        <label for="recepten">Voeg je receptensite toe:</label>
+        <input type="url" id="recepten" name="recepten"><br><br>
+
+        <input type="reset" value="Reset">
+        <button type="submit">Send</button>
+
+
+</form>
